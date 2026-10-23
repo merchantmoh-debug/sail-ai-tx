@@ -2,9 +2,12 @@
 
 Submission workspace for four therapeutic actionability reports generated with Codex.
 
-Status: official inputs and format checks are prepared. Final reports have not been generated or submitted.
+Status: four system-generated reports and the system description are prepared. Submission confirmation is recorded separately after upload.
 
 ## Files
+
+- `reports.json`: four therapeutic actionability reports in the required submission format.
+- `system_description.txt`: the entry system description.
 
 - `inputs/patients.json`: the four official hypothetical patient records, unchanged.
 - `inputs/report_template.md`: the official report template, unchanged.
