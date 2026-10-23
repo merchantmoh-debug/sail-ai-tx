@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "path": "inputs/patients.json",
+      "url": "https://aitxchallenge.org/assets/json/final_challenge/aitx_final_patients.json",
+      "retrieved_date": "2026-10-23",
+      "sha256": "a47f5a36bd187127373c8ecccea1502f086efc8dff4bcde7d012e682144f1583",
+      "bytes": 1850
+    },
+    {
+      "path": "inputs/report_template.md",
+      "url": "https://aitxchallenge.org/assets/md/aitxchallenge_report_template.md",
+      "retrieved_date": "2026-10-23",
+      "sha256": "8f551c4fe5b45e2114b849d93712861b4341d3c67f5eb838cc6c7ab6406df2e2",
+      "bytes": 6253
+    }
+  ],
+  "format_rules_url": "https://aitxchallenge.org/models/",
+  "format_rules_checked_date": "2026-10-23",
+  "format_rules_html_sha256": "0280b14ea6ec7d471798de7d43bf359780073875d7c6d09fa27451f1c25ff10c"
+}

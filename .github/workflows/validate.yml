@@ -1,0 +1,21 @@
+name: Validate submission format tooling
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test
+      - name: Validate reports when present
+        shell: bash
+        run: |
+          if [ -f reports.json ]; then
+            node tools/validate.mjs reports.json
+          else
+            echo "Final reports: NOT_RUN (not yet generated)"
+          fi
